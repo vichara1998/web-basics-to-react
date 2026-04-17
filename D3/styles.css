@@ -1,0 +1,62 @@
+h1 {
+  background-color: aqua;
+}
+
+.class1 {
+  background-color: blue;
+}
+.class2 {
+  background-color: brown;
+}
+#id1 {
+  background-color: rgb(200, 250, 63);
+}
+
+#id2 {
+  margin: 50px solid rgb(70, 58, 58);
+  border: 6px solid firebrick;
+  padding: 100px;
+  background-color: rgb(42, 128, 56);
+}
+body > h3 {
+  background-color: violet;
+}
+/* * {
+  background-color: bisque;
+} */
+
+.btn{
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(102, 25, 25);
+}
+.btn2{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+#btn3{
+    background-color: rgb(255, 255, 255)!important;
+    color: green;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#btn3:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
