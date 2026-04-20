@@ -1,0 +1,45 @@
+.animation {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s; /*time takes*/
+  animation-iteration-count: infinite; /*run time*/
+  border-radius: 50px;
+}
+
+@keyframes example {
+  0% {
+    left: 0;
+    background-color: rgb(255, 8, 0);
+  }
+  50% {
+    left: 500px;
+    top: 0%;
+    transform: rotate(360deg);
+    background-color: green;
+    border-radius: 100px;
+  }
+  100% {
+    left: 0px;
+    transform: rotate(720deg);
+    background-color: rgb(255, 6, 255);
+  }
+}
+.transition {
+  margin-top: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  transition: width 2s;
+  height: 2s;
+  background-color: 2s;
+  transform: 2s;
+}
+.transition:hover {
+  width: 510px;
+  height: 510px;
+  background-color: aqua;
+}
